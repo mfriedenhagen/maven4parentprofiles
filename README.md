@@ -1,14 +1,14 @@
-= File based profile activation different between Maven 3.9.x and Maven 4
+h File based profile activation different between Maven 3.9.x and Maven 4
 
-== Preparation
+## Preparation
 ```
 mvn -s settings.xml -f companypom.pom install
 mvn -s settings.xml -f teampom.pom install
 ```
 
-== Test
+## Test
 
-=== help:active-profiles
+### help:active-profiles
 
 * With Maven 4 no active profiles are shown at all
 
@@ -61,8 +61,6 @@ The following profiles are active:
 [INFO] Finished at: 2025-04-22T11:50:24+02:00
 [INFO] ------------------------------------------------------------------------```
 ```
-
-=== Maven 4
 
 ```
 ❯ ~/Downloads/apache-maven-4.0.0-rc-4-SNAPSHOT/bin/mvn -V -B -s settings.xml help:active-profiles

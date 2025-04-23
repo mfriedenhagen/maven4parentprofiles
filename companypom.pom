@@ -65,7 +65,7 @@
                             <image>
                                 <name>maven4parentprofiles-test</name>
                                 <build>
-                                    <from>alpine:3.21.3</from>
+                                    <from>docker.io/library/alpine:3.21.3</from>
                                     <tags>
                                         <tag>${project.version}</tag>
                                         <tag>latest</tag>

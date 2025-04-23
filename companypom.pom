@@ -71,7 +71,6 @@
                                         <tag>latest</tag>
                                     </tags>
                                     <labels>
-                                        <!-- See RFC Docker Image Requirements (M&amp;M) https://mam-confluence.1and1.com/x/SMjjB MAMDEVIS-4098 -->
                                         <org.opencontainers.image.created>${maven.build.timestamp}</org.opencontainers.image.created>
                                         <org.opencontainers.image.title>${project.name}</org.opencontainers.image.title>
                                     </labels>
